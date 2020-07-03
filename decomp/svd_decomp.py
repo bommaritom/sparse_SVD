@@ -108,8 +108,8 @@ def svd_decomp(M):
     ACCURACY = 5
 
     #-begin algorithm-
-    amt_nonzero = -1
-    while amt_nonzero > THRESHOLD or amt_nonzero == -1:
+    amt_nonzero = dim
+    while amt_nonzero > THRESHOLD:
 
         amt_nonzero = 0
 

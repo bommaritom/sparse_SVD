@@ -1,7 +1,7 @@
 import numpy as np
 
-from decomp/SparseMat  import SparseMat
-from decomp/svd_decomp import svd_decomp
+from SparseMat  import SparseMat
+from svd_decomp import svd_decomp
 
 #generates a random sparse matrix with given "density"
 #this is not used in any algorithm but helpful to test and debug the code.
