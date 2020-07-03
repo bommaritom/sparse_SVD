@@ -11,7 +11,7 @@ Python + Numpy
 
 ## Known bugs:
 
-* Unknown (?) "Something weird happened the first time I ran your test code, and it seemed to never complete the 50x50
+* "Something weird happened the first time I ran your test code, and it seemed to never complete the 50x50
 matrix SVD. It worked on the second run though and hasn't gotten stuck since.. so I'm wondering if there's
 maybe a floating point loop invariant somewhere? I'm thinking maybe one side of a condition became NaN
 and  the algorithm got stuck. It's also possible that it was something unrelated, but it seems a little weird."
