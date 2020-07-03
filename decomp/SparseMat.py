@@ -25,7 +25,7 @@ class SparseMat:
                                                     Note: Why a square matrix? Helps with some of the logic.
                                                     At worst this may accrue a minor, "linear" (<= n) increase 
                                                     in space complexity when the matrix has more columns than rows.
-                                                    (If more rows than columns we don't get this data loss, surprisingly.)
+                                                    (If more rows than columns we don't get this complexity increase, surprisingly.)
 
 
     __str__(self):                                  Overrides the default print method, self-explanatory.

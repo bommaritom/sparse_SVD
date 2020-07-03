@@ -36,10 +36,10 @@ def rand_mat(n, m, density):
     return SparseMat(value, col_index, row_index)
 
 
-#here we generate a random 20x20 matrix and compute the SVD.
+#here we generate a random 30x30 matrix and compute the SVD.
 def main():
 
-    M = rand_mat(50, 50, .02)
+    M = rand_mat(30, 30, .02)
 
     svd = svd_decomp(M)
     print(svd[0])
