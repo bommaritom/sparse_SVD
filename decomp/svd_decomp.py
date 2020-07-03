@@ -114,6 +114,9 @@ def svd_decomp(M):
         amt_nonzero = 0
 
         for i in range(0, dim-1):
+            
+            if round(SIGMA.value_at(i, i+1), ACCURACY) != 0:
+                amt_nonzero += 1
 
             kill = SIGMA.value_at(i, i+1)
             top = SIGMA.value_at(i, i)
@@ -137,9 +140,9 @@ def svd_decomp(M):
 
                 SIGMA.givens_pre(i, i+1, cos_pre, sin_pre)
                 U.givens_post(i, i+1, cos_pre, sin_pre)
-
-            if round(SIGMA.value_at(i, i+1), ACCURACY) != 0:
-                amt_nonzero += 1
+                
+            
+            
 
         #print(amt_nonzero)
 
