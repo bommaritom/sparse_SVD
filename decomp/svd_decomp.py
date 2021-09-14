@@ -3,7 +3,7 @@ import numpy as np
 from SparseMat import SparseMat
 
 __author__ = "Marco Bommarito"
-__email__  = "bommaritom@carleton.edu"
+__email__  = "gbommari@purdue.edu"
 
 """
 DESCRIPTION:
